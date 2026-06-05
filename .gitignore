@@ -10,6 +10,7 @@ build/
 
 # Local configuration file (sdk path, keystore location, etc)
 local.properties
+gradle.properties
 
 # Keystores
 *.jks
