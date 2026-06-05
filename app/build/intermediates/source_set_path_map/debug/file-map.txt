@@ -1,0 +1,72 @@
+com.movieapp-ui-tooling-release-0 /Users/patricksalespuppim/.gradle/caches/transforms-3/0719425bfbc63173f5fe5fbc910bbb4c/transformed/ui-tooling-release/res
+com.movieapp-core-runtime-2.2.0-1 /Users/patricksalespuppim/.gradle/caches/transforms-3/0adf7549a5926aeedc8a163b8b3509f4/transformed/core-runtime-2.2.0/res
+com.movieapp-foundation-layout-release-2 /Users/patricksalespuppim/.gradle/caches/transforms-3/0b094319de37627aca219c4f5125ddbd/transformed/foundation-layout-release/res
+com.movieapp-core-ktx-1.12.0-3 /Users/patricksalespuppim/.gradle/caches/transforms-3/15d804d89504b6f37ddfe5ee80d9ecd9/transformed/core-ktx-1.12.0/res
+com.movieapp-lifecycle-livedata-ktx-2.7.0-4 /Users/patricksalespuppim/.gradle/caches/transforms-3/1bb9f1a7f9cdf42be35498870f5af51e/transformed/lifecycle-livedata-ktx-2.7.0/res
+com.movieapp-startup-runtime-1.1.1-5 /Users/patricksalespuppim/.gradle/caches/transforms-3/1da5fa4e6178f89a36dbc80229e5af0b/transformed/startup-runtime-1.1.1/res
+com.movieapp-lifecycle-livedata-core-ktx-2.7.0-6 /Users/patricksalespuppim/.gradle/caches/transforms-3/1e1b5a6a04bb95aaf3f2122c710a5ab2/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.movieapp-animation-release-7 /Users/patricksalespuppim/.gradle/caches/transforms-3/1f5b7d97981f1c910d60732c1c960d90/transformed/animation-release/res
+com.movieapp-ui-geometry-release-8 /Users/patricksalespuppim/.gradle/caches/transforms-3/2301fc4a676d8b1235230e20f881f10c/transformed/ui-geometry-release/res
+com.movieapp-navigation-common-2.7.6-9 /Users/patricksalespuppim/.gradle/caches/transforms-3/230cefcd3b921e39c21dbd5dadbd492d/transformed/navigation-common-2.7.6/res
+com.movieapp-biometric-1.1.0-10 /Users/patricksalespuppim/.gradle/caches/transforms-3/2516760ed8b5b422e24028e178a5f93e/transformed/biometric-1.1.0/res
+com.movieapp-material-ripple-release-11 /Users/patricksalespuppim/.gradle/caches/transforms-3/2720e38d06fceb8650312c7a4e872e83/transformed/material-ripple-release/res
+com.movieapp-savedstate-1.2.1-12 /Users/patricksalespuppim/.gradle/caches/transforms-3/2b3e06d2a61529225c0a0e681310a9fd/transformed/savedstate-1.2.1/res
+com.movieapp-lifecycle-runtime-2.7.0-13 /Users/patricksalespuppim/.gradle/caches/transforms-3/30a495a92754308348b1e358e2cc1cea/transformed/lifecycle-runtime-2.7.0/res
+com.movieapp-ui-text-release-14 /Users/patricksalespuppim/.gradle/caches/transforms-3/32b1e51c32f36f05c7c809a0d7ec6446/transformed/ui-text-release/res
+com.movieapp-lifecycle-viewmodel-compose-2.7.0-15 /Users/patricksalespuppim/.gradle/caches/transforms-3/34ebbeca4d19a4460b379dc0512f1489/transformed/lifecycle-viewmodel-compose-2.7.0/res
+com.movieapp-lifecycle-process-2.7.0-16 /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/res
+com.movieapp-lifecycle-runtime-compose-2.7.0-17 /Users/patricksalespuppim/.gradle/caches/transforms-3/3df75f94b651d1eafc2b2f9240d64440/transformed/lifecycle-runtime-compose-2.7.0/res
+com.movieapp-sqlite-framework-2.4.0-18 /Users/patricksalespuppim/.gradle/caches/transforms-3/3f4f9c06f278ccd2eb3c4552447a1550/transformed/sqlite-framework-2.4.0/res
+com.movieapp-savedstate-ktx-1.2.1-19 /Users/patricksalespuppim/.gradle/caches/transforms-3/3f73f0819d345ad88b17493d4f1c764b/transformed/savedstate-ktx-1.2.1/res
+com.movieapp-sqlite-2.4.0-20 /Users/patricksalespuppim/.gradle/caches/transforms-3/431338fdd20a8fc69b9eed70922c89e1/transformed/sqlite-2.4.0/res
+com.movieapp-lifecycle-viewmodel-ktx-2.7.0-21 /Users/patricksalespuppim/.gradle/caches/transforms-3/45edc8f206465379b99b0e6fee4d527a/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.movieapp-lifecycle-viewmodel-savedstate-2.7.0-22 /Users/patricksalespuppim/.gradle/caches/transforms-3/48c0c18c03662b3237f19647d6b77d1e/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.movieapp-annotation-experimental-1.4.0-23 /Users/patricksalespuppim/.gradle/caches/transforms-3/4979dbd922a163fc121ceb5560506af3/transformed/annotation-experimental-1.4.0/res
+com.movieapp-navigation-runtime-2.7.6-24 /Users/patricksalespuppim/.gradle/caches/transforms-3/4ab9c68e3523b6165528a313c9b7001e/transformed/navigation-runtime-2.7.6/res
+com.movieapp-lifecycle-runtime-ktx-2.7.0-25 /Users/patricksalespuppim/.gradle/caches/transforms-3/506e52917d6664ac6bfc0cdaaa678028/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.movieapp-lifecycle-livedata-2.7.0-26 /Users/patricksalespuppim/.gradle/caches/transforms-3/53f1a2f3033f0e98fc8eed76601dd003/transformed/lifecycle-livedata-2.7.0/res
+com.movieapp-material3-release-27 /Users/patricksalespuppim/.gradle/caches/transforms-3/55e4cd172cb2c73c7f9f39ab7b671ed4/transformed/material3-release/res
+com.movieapp-navigation-common-ktx-2.7.6-28 /Users/patricksalespuppim/.gradle/caches/transforms-3/5619e5fbfc7ecf38c09676d63c7383db/transformed/navigation-common-ktx-2.7.6/res
+com.movieapp-paging-compose-3.2.1-29 /Users/patricksalespuppim/.gradle/caches/transforms-3/5859efa234fa74bee2b567f988170778/transformed/paging-compose-3.2.1/res
+com.movieapp-customview-poolingcontainer-1.0.0-30 /Users/patricksalespuppim/.gradle/caches/transforms-3/5a3b5e7d345cb11073bc29e9ce549942/transformed/customview-poolingcontainer-1.0.0/res
+com.movieapp-navigation-compose-2.7.6-31 /Users/patricksalespuppim/.gradle/caches/transforms-3/6509fe22d309c82312f8a33cb81f4a45/transformed/navigation-compose-2.7.6/res
+com.movieapp-room-runtime-2.6.1-32 /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/res
+com.movieapp-runtime-saveable-release-33 /Users/patricksalespuppim/.gradle/caches/transforms-3/70220d9be60cbe64e75906b5781b8657/transformed/runtime-saveable-release/res
+com.movieapp-navigation-runtime-ktx-2.7.6-34 /Users/patricksalespuppim/.gradle/caches/transforms-3/7052ba20e67644e08072765b1a368911/transformed/navigation-runtime-ktx-2.7.6/res
+com.movieapp-ui-tooling-data-release-35 /Users/patricksalespuppim/.gradle/caches/transforms-3/7464b7be87fddcda67e133a2c97aa14d/transformed/ui-tooling-data-release/res
+com.movieapp-activity-1.8.2-36 /Users/patricksalespuppim/.gradle/caches/transforms-3/758378a889cdd3723dce2dc6b46101e4/transformed/activity-1.8.2/res
+com.movieapp-core-1.12.0-37 /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/res
+com.movieapp-material-icons-extended-release-38 /Users/patricksalespuppim/.gradle/caches/transforms-3/82b5e9fa981a0b27d441cf299c9fa470/transformed/material-icons-extended-release/res
+com.movieapp-ui-release-39 /Users/patricksalespuppim/.gradle/caches/transforms-3/88a54fcb984296a54ad673a3e29e3932/transformed/ui-release/res
+com.movieapp-paging-runtime-3.2.1-40 /Users/patricksalespuppim/.gradle/caches/transforms-3/8c2fc67cde5fcbe1bcaf86f70137e4a1/transformed/paging-runtime-3.2.1/res
+com.movieapp-activity-compose-1.8.2-41 /Users/patricksalespuppim/.gradle/caches/transforms-3/8d2b56890fc73d27919dda862b809607/transformed/activity-compose-1.8.2/res
+com.movieapp-emoji2-views-helper-1.3.0-42 /Users/patricksalespuppim/.gradle/caches/transforms-3/8fbb6b3e4e699f75ff470d41e45ade1a/transformed/emoji2-views-helper-1.3.0/res
+com.movieapp-ui-test-manifest-1.6.7-43 /Users/patricksalespuppim/.gradle/caches/transforms-3/9206335cec0d215270561be975f681f6/transformed/ui-test-manifest-1.6.7/res
+com.movieapp-runtime-release-44 /Users/patricksalespuppim/.gradle/caches/transforms-3/9895028bf5ca162673acd33e6b71fd55/transformed/runtime-release/res
+com.movieapp-animation-core-release-45 /Users/patricksalespuppim/.gradle/caches/transforms-3/9940ba62a8dbd88e349a73745de4d033/transformed/animation-core-release/res
+com.movieapp-foundation-release-46 /Users/patricksalespuppim/.gradle/caches/transforms-3/9961a74dcd259a9565e9a65273ce2b09/transformed/foundation-release/res
+com.movieapp-fragment-ktx-1.6.2-47 /Users/patricksalespuppim/.gradle/caches/transforms-3/9a16f119f326feee9c4eea7eacb6e9bc/transformed/fragment-ktx-1.6.2/res
+com.movieapp-ui-tooling-preview-release-48 /Users/patricksalespuppim/.gradle/caches/transforms-3/a29c5c68bd94f59ca9ef6af42cb1552c/transformed/ui-tooling-preview-release/res
+com.movieapp-room-ktx-2.6.1-49 /Users/patricksalespuppim/.gradle/caches/transforms-3/ae85be1f33dbabde8154b2d432ed6d2a/transformed/room-ktx-2.6.1/res
+com.movieapp-ui-unit-release-50 /Users/patricksalespuppim/.gradle/caches/transforms-3/b024340cecc6014b19d304818e23254f/transformed/ui-unit-release/res
+com.movieapp-coil-base-2.5.0-51 /Users/patricksalespuppim/.gradle/caches/transforms-3/b3afc40d8b5a1852e35d95552368eead/transformed/coil-base-2.5.0/res
+com.movieapp-appcompat-1.6.1-52 /Users/patricksalespuppim/.gradle/caches/transforms-3/b89e98d1aafa29e634900bd36b79b025/transformed/appcompat-1.6.1/res
+com.movieapp-lifecycle-viewmodel-2.7.0-53 /Users/patricksalespuppim/.gradle/caches/transforms-3/be7da967b270bef5d0b99e307f64a076/transformed/lifecycle-viewmodel-2.7.0/res
+com.movieapp-activity-ktx-1.8.2-54 /Users/patricksalespuppim/.gradle/caches/transforms-3/c65824b9312c990898eada4ed117277c/transformed/activity-ktx-1.8.2/res
+com.movieapp-paging-runtime-ktx-3.2.1-55 /Users/patricksalespuppim/.gradle/caches/transforms-3/cf27565fc612cc65cbf17b2d7ff7ffc7/transformed/paging-runtime-ktx-3.2.1/res
+com.movieapp-emoji2-1.3.0-56 /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/res
+com.movieapp-recyclerview-1.2.1-57 /Users/patricksalespuppim/.gradle/caches/transforms-3/d8e3475999d7121411d3ac7042c97923/transformed/recyclerview-1.2.1/res
+com.movieapp-fragment-1.6.2-58 /Users/patricksalespuppim/.gradle/caches/transforms-3/dbec1a85ec663132aff1a2620d417d2a/transformed/fragment-1.6.2/res
+com.movieapp-ui-graphics-release-59 /Users/patricksalespuppim/.gradle/caches/transforms-3/ecadf7194937963082ead9cbd51eed35/transformed/ui-graphics-release/res
+com.movieapp-appcompat-resources-1.6.1-60 /Users/patricksalespuppim/.gradle/caches/transforms-3/ed9821815345084c237a152b99496d9a/transformed/appcompat-resources-1.6.1/res
+com.movieapp-ui-util-release-61 /Users/patricksalespuppim/.gradle/caches/transforms-3/f0a4c62ff4da42482e5a33065ba51fec/transformed/ui-util-release/res
+com.movieapp-material-icons-core-release-62 /Users/patricksalespuppim/.gradle/caches/transforms-3/f3fa8f2b95bd9328d8ab7a563b8c1255/transformed/material-icons-core-release/res
+com.movieapp-material-release-63 /Users/patricksalespuppim/.gradle/caches/transforms-3/f5199afe681ed08e0a8bd646b94f5bde/transformed/material-release/res
+com.movieapp-lifecycle-livedata-core-2.7.0-64 /Users/patricksalespuppim/.gradle/caches/transforms-3/f97cd15346c72cdf1c4803d9f82c8960/transformed/lifecycle-livedata-core-2.7.0/res
+com.movieapp-profileinstaller-1.3.1-65 /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/res
+com.movieapp-resValues-66 /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/build/generated/res/resValues/debug
+com.movieapp-packageDebugResources-67 /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.movieapp-packageDebugResources-68 /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.movieapp-merged_res-69 /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/build/intermediates/merged_res/debug
+com.movieapp-debug-70 /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/debug/res
+com.movieapp-main-71 /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/res

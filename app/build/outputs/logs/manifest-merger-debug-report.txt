@@ -1,0 +1,460 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/230cefcd3b921e39c21dbd5dadbd492d/transformed/navigation-common-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/4ab9c68e3523b6165528a313c9b7001e/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/5619e5fbfc7ecf38c09676d63c7383db/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/7052ba20e67644e08072765b1a368911/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/6509fe22d309c82312f8a33cb81f4a45/transformed/navigation-compose-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [io.insert-koin:koin-androidx-compose:3.5.3] /Users/patricksalespuppim/.gradle/caches/transforms-3/d42d83dab149448b77ceaf10c00c8c4f/transformed/koin-androidx-compose-3.5.3/AndroidManifest.xml:2:1-9:12
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/patricksalespuppim/.gradle/caches/transforms-3/d8c183e22138c227e4ccfb418240ec53/transformed/koin-android-3.5.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2516760ed8b5b422e24028e178a5f93e/transformed/biometric-1.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [io.coil-kt:coil-compose:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/e9baf044155d9acfc6b1e12003d877f9/transformed/coil-compose-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/cfeb959dab4426a9a631d2b3dc7a2aa1/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d4d99b241e8f4f24d96f08ecf1cc2087/transformed/coil-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/b3afc40d8b5a1852e35d95552368eead/transformed/coil-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/ed9821815345084c237a152b99496d9a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/b89e98d1aafa29e634900bd36b79b025/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/dbec1a85ec663132aff1a2620d417d2a/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/9a16f119f326feee9c4eea7eacb6e9bc/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.paging:paging-compose:3.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/5859efa234fa74bee2b567f988170778/transformed/paging-compose-3.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.paging:paging-runtime-ktx:3.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/cf27565fc612cc65cbf17b2d7ff7ffc7/transformed/paging-runtime-ktx-3.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.paging:paging-runtime:3.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/8c2fc67cde5fcbe1bcaf86f70137e4a1/transformed/paging-runtime-3.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/5a3b5e7d345cb11073bc29e9ce549942/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/15d804d89504b6f37ddfe5ee80d9ecd9/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/55e4cd172cb2c73c7f9f39ab7b671ed4/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/2720e38d06fceb8650312c7a4e872e83/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/f3fa8f2b95bd9328d8ab7a563b8c1255/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/82b5e9fa981a0b27d441cf299c9fa470/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/f5199afe681ed08e0a8bd646b94f5bde/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0b094319de37627aca219c4f5125ddbd/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9961a74dcd259a9565e9a65273ce2b09/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9940ba62a8dbd88e349a73745de4d033/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/1f5b7d97981f1c910d60732c1c960d90/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/7464b7be87fddcda67e133a2c97aa14d/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/b024340cecc6014b19d304818e23254f/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/32b1e51c32f36f05c7c809a0d7ec6446/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/f0a4c62ff4da42482e5a33065ba51fec/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/2301fc4a676d8b1235230e20f881f10c/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/a29c5c68bd94f59ca9ef6af42cb1552c/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0719425bfbc63173f5fe5fbc910bbb4c/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/ecadf7194937963082ead9cbd51eed35/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9206335cec0d215270561be975f681f6/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.8.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/758378a889cdd3723dce2dc6b46101e4/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/19360f6bec009414edc01b65715cd6d4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/d8e3475999d7121411d3ac7042c97923/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/31162a1b802adddc3c2af946d495199d/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/dbede19b89512e22192f45112fb4e13b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2659a7106fae1b46c8af3eb6199912ed/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/42b987265bc128aca50bc6927b939174/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/419dce2bebfecf4a3b63dd0366a569cb/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/ad77b6094842bbb08fffa0dbf9931e8e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/8fbb6b3e4e699f75ff470d41e45ade1a/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/3f73f0819d345ad88b17493d4f1c764b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/2b3e06d2a61529225c0a0e681310a9fd/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/53f1a2f3033f0e98fc8eed76601dd003/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/1bb9f1a7f9cdf42be35498870f5af51e/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/1e1b5a6a04bb95aaf3f2122c710a5ab2/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/30a495a92754308348b1e358e2cc1cea/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/f97cd15346c72cdf1c4803d9f82c8960/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/48c0c18c03662b3237f19647d6b77d1e/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/45edc8f206465379b99b0e6fee4d527a/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/be7da967b270bef5d0b99e307f64a076/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/506e52917d6664ac6bfc0cdaaa678028/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3df75f94b651d1eafc2b2f9240d64440/transformed/lifecycle-runtime-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/34ebbeca4d19a4460b379dc0512f1489/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/05cb0939771f80bcde7965104103eb3f/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.ui:ui-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/88a54fcb984296a54ad673a3e29e3932/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/c65824b9312c990898eada4ed117277c/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/8d2b56890fc73d27919dda862b809607/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/ae85be1f33dbabde8154b2d432ed6d2a/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3f4f9c06f278ccd2eb3c4552447a1550/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/431338fdd20a8fc69b9eed70922c89e1/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/70220d9be60cbe64e75906b5781b8657/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9895028bf5ca162673acd33e6b71fd55/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/4979dbd922a163fc121ceb5560506af3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/0ab10b383de47bb46eee3d90bfced27b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.security:security-crypto:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7daac07d38ae6ced83751391d76732cd/transformed/security-crypto-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/0adf7549a5926aeedc8a163b8b3509f4/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3f55f9dae142926aa2f7bd902b2a4497/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/54146a47e61eb5c305a169ddfa1e6f00/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/1da5fa4e6178f89a36dbc80229e5af0b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/c877f3f97a646b6eaf8e6382190b3475/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/3958cbd6271bc7fa71edb271b06114b5/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:5:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2516760ed8b5b422e24028e178a5f93e/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2516760ed8b5b422e24028e178a5f93e/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:5:22-69
+application
+ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:7:5-24:19
+INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/patricksalespuppim/.gradle/caches/transforms-3/d8c183e22138c227e4ccfb418240ec53/transformed/koin-android-3.5.3/AndroidManifest.xml:9:5-20
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/patricksalespuppim/.gradle/caches/transforms-3/d8c183e22138c227e4ccfb418240ec53/transformed/koin-android-3.5.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0719425bfbc63173f5fe5fbc910bbb4c/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0719425bfbc63173f5fe5fbc910bbb4c/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9206335cec0d215270561be975f681f6/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9206335cec0d215270561be975f681f6/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/0ab10b383de47bb46eee3d90bfced27b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/0ab10b383de47bb46eee3d90bfced27b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/1da5fa4e6178f89a36dbc80229e5af0b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/1da5fa4e6178f89a36dbc80229e5af0b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:13:9-46
+	android:name
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:8:9-41
+activity#com.movieapp.MainActivity
+ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:exported
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:18:13-50
+	android:name
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/230cefcd3b921e39c21dbd5dadbd492d/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/230cefcd3b921e39c21dbd5dadbd492d/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/4ab9c68e3523b6165528a313c9b7001e/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/4ab9c68e3523b6165528a313c9b7001e/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/5619e5fbfc7ecf38c09676d63c7383db/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/5619e5fbfc7ecf38c09676d63c7383db/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/7052ba20e67644e08072765b1a368911/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/7052ba20e67644e08072765b1a368911/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/6509fe22d309c82312f8a33cb81f4a45/transformed/navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/6509fe22d309c82312f8a33cb81f4a45/transformed/navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-compose:3.5.3] /Users/patricksalespuppim/.gradle/caches/transforms-3/d42d83dab149448b77ceaf10c00c8c4f/transformed/koin-androidx-compose-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-androidx-compose:3.5.3] /Users/patricksalespuppim/.gradle/caches/transforms-3/d42d83dab149448b77ceaf10c00c8c4f/transformed/koin-androidx-compose-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/patricksalespuppim/.gradle/caches/transforms-3/d8c183e22138c227e4ccfb418240ec53/transformed/koin-android-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-android:3.5.3] /Users/patricksalespuppim/.gradle/caches/transforms-3/d8c183e22138c227e4ccfb418240ec53/transformed/koin-android-3.5.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2516760ed8b5b422e24028e178a5f93e/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2516760ed8b5b422e24028e178a5f93e/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil-compose:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/e9baf044155d9acfc6b1e12003d877f9/transformed/coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/e9baf044155d9acfc6b1e12003d877f9/transformed/coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/cfeb959dab4426a9a631d2b3dc7a2aa1/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/cfeb959dab4426a9a631d2b3dc7a2aa1/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d4d99b241e8f4f24d96f08ecf1cc2087/transformed/coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d4d99b241e8f4f24d96f08ecf1cc2087/transformed/coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/b3afc40d8b5a1852e35d95552368eead/transformed/coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/b3afc40d8b5a1852e35d95552368eead/transformed/coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/ed9821815345084c237a152b99496d9a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/ed9821815345084c237a152b99496d9a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/b89e98d1aafa29e634900bd36b79b025/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/b89e98d1aafa29e634900bd36b79b025/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/dbec1a85ec663132aff1a2620d417d2a/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/dbec1a85ec663132aff1a2620d417d2a/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/9a16f119f326feee9c4eea7eacb6e9bc/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/9a16f119f326feee9c4eea7eacb6e9bc/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-compose:3.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/5859efa234fa74bee2b567f988170778/transformed/paging-compose-3.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.paging:paging-compose:3.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/5859efa234fa74bee2b567f988170778/transformed/paging-compose-3.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.paging:paging-runtime-ktx:3.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/cf27565fc612cc65cbf17b2d7ff7ffc7/transformed/paging-runtime-ktx-3.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.paging:paging-runtime-ktx:3.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/cf27565fc612cc65cbf17b2d7ff7ffc7/transformed/paging-runtime-ktx-3.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.paging:paging-runtime:3.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/8c2fc67cde5fcbe1bcaf86f70137e4a1/transformed/paging-runtime-3.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.paging:paging-runtime:3.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/8c2fc67cde5fcbe1bcaf86f70137e4a1/transformed/paging-runtime-3.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/5a3b5e7d345cb11073bc29e9ce549942/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/5a3b5e7d345cb11073bc29e9ce549942/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/15d804d89504b6f37ddfe5ee80d9ecd9/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/15d804d89504b6f37ddfe5ee80d9ecd9/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/55e4cd172cb2c73c7f9f39ab7b671ed4/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/55e4cd172cb2c73c7f9f39ab7b671ed4/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/2720e38d06fceb8650312c7a4e872e83/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/2720e38d06fceb8650312c7a4e872e83/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/f3fa8f2b95bd9328d8ab7a563b8c1255/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/f3fa8f2b95bd9328d8ab7a563b8c1255/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/82b5e9fa981a0b27d441cf299c9fa470/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/82b5e9fa981a0b27d441cf299c9fa470/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/f5199afe681ed08e0a8bd646b94f5bde/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/f5199afe681ed08e0a8bd646b94f5bde/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0b094319de37627aca219c4f5125ddbd/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0b094319de37627aca219c4f5125ddbd/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9961a74dcd259a9565e9a65273ce2b09/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9961a74dcd259a9565e9a65273ce2b09/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9940ba62a8dbd88e349a73745de4d033/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9940ba62a8dbd88e349a73745de4d033/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/1f5b7d97981f1c910d60732c1c960d90/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/1f5b7d97981f1c910d60732c1c960d90/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/7464b7be87fddcda67e133a2c97aa14d/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/7464b7be87fddcda67e133a2c97aa14d/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/b024340cecc6014b19d304818e23254f/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/b024340cecc6014b19d304818e23254f/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/32b1e51c32f36f05c7c809a0d7ec6446/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/32b1e51c32f36f05c7c809a0d7ec6446/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/f0a4c62ff4da42482e5a33065ba51fec/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/f0a4c62ff4da42482e5a33065ba51fec/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/2301fc4a676d8b1235230e20f881f10c/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/2301fc4a676d8b1235230e20f881f10c/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/a29c5c68bd94f59ca9ef6af42cb1552c/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/a29c5c68bd94f59ca9ef6af42cb1552c/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0719425bfbc63173f5fe5fbc910bbb4c/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0719425bfbc63173f5fe5fbc910bbb4c/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/ecadf7194937963082ead9cbd51eed35/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/ecadf7194937963082ead9cbd51eed35/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9206335cec0d215270561be975f681f6/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9206335cec0d215270561be975f681f6/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/758378a889cdd3723dce2dc6b46101e4/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/758378a889cdd3723dce2dc6b46101e4/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/19360f6bec009414edc01b65715cd6d4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/19360f6bec009414edc01b65715cd6d4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/d8e3475999d7121411d3ac7042c97923/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/d8e3475999d7121411d3ac7042c97923/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/31162a1b802adddc3c2af946d495199d/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/31162a1b802adddc3c2af946d495199d/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/dbede19b89512e22192f45112fb4e13b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/dbede19b89512e22192f45112fb4e13b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2659a7106fae1b46c8af3eb6199912ed/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2659a7106fae1b46c8af3eb6199912ed/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/42b987265bc128aca50bc6927b939174/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/42b987265bc128aca50bc6927b939174/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/419dce2bebfecf4a3b63dd0366a569cb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/419dce2bebfecf4a3b63dd0366a569cb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/ad77b6094842bbb08fffa0dbf9931e8e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/ad77b6094842bbb08fffa0dbf9931e8e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/8fbb6b3e4e699f75ff470d41e45ade1a/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/8fbb6b3e4e699f75ff470d41e45ade1a/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/3f73f0819d345ad88b17493d4f1c764b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/3f73f0819d345ad88b17493d4f1c764b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/2b3e06d2a61529225c0a0e681310a9fd/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/2b3e06d2a61529225c0a0e681310a9fd/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/53f1a2f3033f0e98fc8eed76601dd003/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/53f1a2f3033f0e98fc8eed76601dd003/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/1bb9f1a7f9cdf42be35498870f5af51e/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/1bb9f1a7f9cdf42be35498870f5af51e/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/1e1b5a6a04bb95aaf3f2122c710a5ab2/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/1e1b5a6a04bb95aaf3f2122c710a5ab2/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/30a495a92754308348b1e358e2cc1cea/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/30a495a92754308348b1e358e2cc1cea/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/f97cd15346c72cdf1c4803d9f82c8960/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/f97cd15346c72cdf1c4803d9f82c8960/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/48c0c18c03662b3237f19647d6b77d1e/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/48c0c18c03662b3237f19647d6b77d1e/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/45edc8f206465379b99b0e6fee4d527a/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/45edc8f206465379b99b0e6fee4d527a/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/be7da967b270bef5d0b99e307f64a076/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/be7da967b270bef5d0b99e307f64a076/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/506e52917d6664ac6bfc0cdaaa678028/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/506e52917d6664ac6bfc0cdaaa678028/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3df75f94b651d1eafc2b2f9240d64440/transformed/lifecycle-runtime-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3df75f94b651d1eafc2b2f9240d64440/transformed/lifecycle-runtime-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/34ebbeca4d19a4460b379dc0512f1489/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/34ebbeca4d19a4460b379dc0512f1489/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/05cb0939771f80bcde7965104103eb3f/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/05cb0939771f80bcde7965104103eb3f/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/88a54fcb984296a54ad673a3e29e3932/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/88a54fcb984296a54ad673a3e29e3932/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/c65824b9312c990898eada4ed117277c/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/c65824b9312c990898eada4ed117277c/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/8d2b56890fc73d27919dda862b809607/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/patricksalespuppim/.gradle/caches/transforms-3/8d2b56890fc73d27919dda862b809607/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/ae85be1f33dbabde8154b2d432ed6d2a/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/ae85be1f33dbabde8154b2d432ed6d2a/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3f4f9c06f278ccd2eb3c4552447a1550/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3f4f9c06f278ccd2eb3c4552447a1550/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/431338fdd20a8fc69b9eed70922c89e1/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/431338fdd20a8fc69b9eed70922c89e1/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/70220d9be60cbe64e75906b5781b8657/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/70220d9be60cbe64e75906b5781b8657/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9895028bf5ca162673acd33e6b71fd55/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9895028bf5ca162673acd33e6b71fd55/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/4979dbd922a163fc121ceb5560506af3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/4979dbd922a163fc121ceb5560506af3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/0ab10b383de47bb46eee3d90bfced27b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/0ab10b383de47bb46eee3d90bfced27b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7daac07d38ae6ced83751391d76732cd/transformed/security-crypto-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7daac07d38ae6ced83751391d76732cd/transformed/security-crypto-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/0adf7549a5926aeedc8a163b8b3509f4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/0adf7549a5926aeedc8a163b8b3509f4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3f55f9dae142926aa2f7bd902b2a4497/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3f55f9dae142926aa2f7bd902b2a4497/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/54146a47e61eb5c305a169ddfa1e6f00/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/54146a47e61eb5c305a169ddfa1e6f00/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/1da5fa4e6178f89a36dbc80229e5af0b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/1da5fa4e6178f89a36dbc80229e5af0b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/c877f3f97a646b6eaf8e6382190b3475/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/c877f3f97a646b6eaf8e6382190b3475/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/3958cbd6271bc7fa71edb271b06114b5/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/patricksalespuppim/.gradle/caches/transforms-3/3958cbd6271bc7fa71edb271b06114b5/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/patricksalespuppim/Documents/Projetos GIT/movie-app/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2516760ed8b5b422e24028e178a5f93e/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/2516760ed8b5b422e24028e178a5f93e/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0719425bfbc63173f5fe5fbc910bbb4c/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0719425bfbc63173f5fe5fbc910bbb4c/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/0719425bfbc63173f5fe5fbc910bbb4c/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9206335cec0d215270561be975f681f6/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9206335cec0d215270561be975f681f6/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.7] /Users/patricksalespuppim/.gradle/caches/transforms-3/9206335cec0d215270561be975f681f6/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/1da5fa4e6178f89a36dbc80229e5af0b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/1da5fa4e6178f89a36dbc80229e5af0b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/d66affe35be2cacc8928da0d8c7a39a5/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.movieapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.movieapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/7b9e4df7753206a15acb9e9561d1013e/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/patricksalespuppim/.gradle/caches/transforms-3/3817e0cf5fecb3882d8a20cfd4a0b874/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/6d5608a7f84b5df7673321336ec9d200/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/patricksalespuppim/.gradle/caches/transforms-3/fdcfa899f820f0e8a75f571bd910e322/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
