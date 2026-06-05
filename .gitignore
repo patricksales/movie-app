@@ -1,0 +1,98 @@
+# Build / Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+*.hprof
+
+# Local configuration file (sdk path, keystore location, etc)
+local.properties
+
+# Keystores
+*.jks
+*.keystore
+*.pem
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Kotlin / kapt / ksp
+.kapt/
+kotlin/kotlin-compiler-*
+ksp/
+
+# NDK / CMake / external native builds
+.cxx/
+.externalNativeBuild/
+obj/
+
+# Generated files
+captures/
+generated/
+*/generated/
+
+# Android specific
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.so
+*.log
+
+# Firebase / Google services (often kept out of VCS, add if you don't want to commit)
+# google-services.json
+# GoogleService-Info.plist
+
+# Misc
+.DS_Store
+Thumbs.db
+*.swp
+*~.nib
+
+# IDEs and editors
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Secrets / environment
+.env
+.env.*
+secrets.properties
+
+# JetBrains Rider / other metadata
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Optional: macOS Finder extended attributes
+*.icloud
+
+# Logs, temporary files
+*.log
+tmp/
+*.tmp
+
+# Docker (if used)
+docker-compose.override.yml
+
+# Node (if using Node in this project)
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# CI / build system caches
+.gradle/
+.build/
