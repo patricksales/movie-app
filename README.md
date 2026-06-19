@@ -84,6 +84,14 @@ com.movieapp/
 TMDB_API_KEY=sua_api_key_aqui
 ```
 
+### Configurar Firebase e Google Services
+
+1. Crie um projeto no [Firebase Console](https://console.firebase.google.com/)
+2. Registre seu aplicativo Android no console
+3. Baixe o arquivo de configuração `google-services.json`
+4. **Coloque o arquivo na pasta do módulo app**:
+
+
 ### Build e Execução
 
 ```bash
