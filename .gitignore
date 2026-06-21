@@ -97,3 +97,6 @@ yarn-error.log
 # CI / build system caches
 .gradle/
 .build/
+
+# Firebase
+app/src/google-services.json

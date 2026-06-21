@@ -2,13 +2,13 @@ package com.movieapp.features.home.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.movieapp.features.home.domain.model.Genre
 import com.movieapp.features.home.domain.model.Movie
 import com.movieapp.features.home.domain.data.repository.MovieRepository
 import com.movieapp.features.home.domain.usecase.GetGenresUseCase
 import com.movieapp.features.home.domain.usecase.GetPopularMoviesUseCase
 import com.movieapp.features.home.domain.usecase.SearchMoviesUseCase
 import com.movieapp.features.home.domain.usecase.ToggleFavoriteUseCase
+import com.movieapp.features.monitoring.PerformanceMonitoring
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -110,9 +110,10 @@ class HomeViewModel(
         loadJob?.cancel()
         loadJob = viewModelScope.launch {
             _uiState.value = _uiState.value.copy(isLoading = true, error = null)
-
+            val trace = PerformanceMonitoring.traceNetworkRequest("load_popular_movies")
             getPopularMoviesUseCase(1).fold(
                 onSuccess = { movies ->
+                    trace.stop()
                     _uiState.value = _uiState.value.copy(
                         movies = movies,
                         isLoading = false,
@@ -121,6 +122,7 @@ class HomeViewModel(
                     )
                 },
                 onFailure = { exception ->
+                    trace.stop()
                     _uiState.value = _uiState.value.copy(
                         isLoading = false,
                         error = exception.message ?: "Erro desconhecido"
