@@ -41,7 +41,7 @@ com.movieapp/
 │   ├── model/               # Modelos de domínio
 │   ├── repository/          # Interfaces dos repositórios
 │   └── usecase/             # Casos de uso
-├── di/                      # Injeção de dependência (Hilt)
+├── di/                      # Injeção de dependência (Koin)
 ├── security/                # Biometria e armazenamento seguro
 └── ui/                      # Camada de apresentação
     ├── theme/               # Tema Compose (cores, tipografia)
@@ -59,7 +59,7 @@ com.movieapp/
 |---------|--------------|
 | **MVVM com StateFlow** | Reatividade nativa do Kotlin, lifecycle-aware |
 | **Clean Architecture** | Separação clara de responsabilidades, testabilidade |
-| **Hilt** | Injeção de dependência com suporte nativo ao Android e Compose |
+| **Koin** | Injeção de dependência leve e idiomática em Kotlin (DSL), fácil de configurar e integrar com Compose |
 | **Retrofit** | Cliente HTTP robusto e amplamente utilizado |
 | **Room** | ORM oficial do Android, suporte a Flow para reatividade |
 | **Jetpack Compose** | UI declarativa moderna, menos boilerplate |
@@ -141,7 +141,7 @@ cd <repo-name>
 | Linguagem | Kotlin |
 | UI | Jetpack Compose |
 | Arquitetura | MVVM + Clean Architecture |
-| DI | Hilt (Dagger) |
+| DI | Koin |
 | Networking | Retrofit + OkHttp |
 | Banco de Dados | Room |
 | Imagens | Coil |
