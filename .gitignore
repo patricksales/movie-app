@@ -99,4 +99,4 @@ yarn-error.log
 .build/
 
 # Firebase
-google-services.json
+app/src/google-services.json
