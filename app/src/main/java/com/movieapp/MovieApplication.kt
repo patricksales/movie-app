@@ -1,6 +1,7 @@
 package com.movieapp
 
 import android.app.Application
+import com.movieapp.core.di.additionalModule
 import com.movieapp.core.di.databaseModule
 import com.movieapp.core.di.networkModule
 import com.movieapp.core.di.securityModule
@@ -24,6 +25,7 @@ class MovieApplication : Application() {
                 networkModule,
                 databaseModule,
                 securityModule,
+                additionalModule,
                 authModule,
                 homeModule,
                 movieDetailModule,

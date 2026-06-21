@@ -136,9 +136,6 @@ dependencies {
     //Firebase analytics
     implementation 'com.google.firebase:firebase-analytics-ktx'
 
-    //Firebase analytics
-    implementation 'com.google.firebase:firebase-analytics-ktx'
-
     //Firebase Performance Monitoring
     implementation 'com.google.firebase:firebase-perf-ktx'
 }

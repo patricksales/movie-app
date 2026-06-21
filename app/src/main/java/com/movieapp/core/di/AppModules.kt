@@ -6,6 +6,7 @@ import com.movieapp.core.data.local.MovieDatabase
 import com.movieapp.core.data.remote.TmdbApi
 import com.movieapp.core.security.BiometricHelper
 import com.movieapp.core.security.SecurePreferences
+import com.movieapp.features.monitoring.AnalyticsManager
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -80,4 +81,8 @@ val databaseModule = module {
 val securityModule = module {
     single { SecurePreferences(androidContext()) }
     single { BiometricHelper(androidContext()) }
+}
+
+val additionalModule = module{
+    single { AnalyticsManager(get()) }
 }

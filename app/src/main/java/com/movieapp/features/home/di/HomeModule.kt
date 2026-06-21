@@ -18,5 +18,5 @@ val homeModule = module {
     factory { GetGenresUseCase(get()) }
     factory { ToggleFavoriteUseCase(get()) }
 
-    viewModel { HomeViewModel(get(), get(), get(), get(), get()) }
+    viewModel { HomeViewModel(get(), get(), get(), get(), get(), get()) }
 }

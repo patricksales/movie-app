@@ -10,5 +10,5 @@ val movieDetailModule = module {
     factory { GetMovieDetailUseCase(get()) }
     factory { IsFavoriteUseCase(get()) }
 
-    viewModel { params -> MovieDetailViewModel(params.get(), get(), get(), get()) }
+    viewModel { params -> MovieDetailViewModel(params.get(), get(), get(), get(), get()) }
 }
