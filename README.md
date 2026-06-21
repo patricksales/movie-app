@@ -91,6 +91,26 @@ TMDB_API_KEY=sua_api_key_aqui
 3. Baixe o arquivo de configuração `google-services.json`
 4. **Coloque o arquivo na pasta do módulo app**:
 
+## Monitoramento e Performance
+
+O aplicativo inclui instrumentação para monitoramento de performance via Firebase Performance e captura de crashes via Firebase Crashlytics. Esta funcionalidade ajuda a medir tempos de carregamento (traces customizados), latência de requests e a correlacionar problemas com crashes.
+
+Arquivo principal
+- Implementação atual: `app/src/main/java/com/movieapp/features/monitoring/PerformenceMonitoring.kt`
+
+O que ele faz
+- Cria traces customizados para medir duração de operações (ex.: `load_movies`).
+- Permite criar traces pontuais para requisições de rede (`traceNetworkRequest(name)`).
+- O Crashlytics já está habilitado em `MainActivity` (coleta automática de crashes e registro de userId).
+
+Exemplos de uso (invocar nos ViewModels ou repositórios)
+
+- Medir um bloco síncrono/suspenso (trace de carregamento de filmes):
+```kotlin
+PerformanceMonitoring.traceMovieLoading {
+    // chamada suspensa que carrega filmes (ex.: repository.fetchPopularMovies())
+}
+```
 
 ### Build e Execução
 
