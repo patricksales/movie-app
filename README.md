@@ -32,25 +32,35 @@ Aplicativo Android para consulta de filmes populares, utilizando a API do TheMov
 O projeto segue os princípios de **Clean Architecture** com **MVVM**:
 
 ```
-com.movieapp/
-├── data/                    # Camada de dados
-│   ├── local/               # Room Database, DAOs, Entities
-│   ├── remote/              # Retrofit API, DTOs
-│   └── repository/          # Implementações dos repositórios
-├── domain/                  # Camada de domínio (regras de negócio)
-│   ├── model/               # Modelos de domínio
-│   ├── repository/          # Interfaces dos repositórios
-│   └── usecase/             # Casos de uso
-├── di/                      # Injeção de dependência (Koin)
-├── security/                # Biometria e armazenamento seguro
-└── ui/                      # Camada de apresentação
-    ├── theme/               # Tema Compose (cores, tipografia)
-    ├── components/          # Composables reutilizáveis
-    ├── navigation/          # Navegação
-    ├── auth/                # Tela de Login
-    ├── home/                # Tela de Filmes Populares
-    ├── details/             # Tela de Detalhes
-    └── favorites/           # Tela de Favoritos
+
+com/movieapp/
+├── core/
+│   ├── data/local/       (MovieDatabase, DAO, Entity)
+│   ├── data/remote/      (TmdbApi, DTOs)
+│   ├── di/               (AppModules - network, database, security)
+│   ├── navigation/       (AppNavigation, Screen)
+│   ├── security/         (BiometricHelper, SecurePreferences)
+│   └── ui/               (components + theme)
+├── features/
+│   ├── auth/
+│   │   ├── data/repository/
+│   │   ├── di/AuthModule.kt
+│   │   ├── domain/repository/
+│   │   └── presentation/ (ui + viewmodel)
+│   ├── home/
+│   │   ├── data/repository/
+│   │   ├── di/HomeModule.kt
+│   │   ├── domain/ (model, data/repository, usecase)
+│   │   └── presentation/ (ui + viewmodel)
+│   ├── moviedetail/
+│   │   ├── di/MovieDetailModule.kt
+│   │   ├── domain/ (model, usecase)
+│   │   └── presentation/ (ui + viewmodel)
+│   └── favorites/
+│       ├── di/FavoritesModule.kt
+│       ├── domain/usecase/
+│       └── presentation/ (ui + viewmodel)
+
 ```
 
 ### Decisões de Arquitetura
