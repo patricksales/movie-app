@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.movieapp.features.auth.domain.repository.AuthRepository
 import com.movieapp.core.security.BiometricHelper
+import com.movieapp.features.monitoring.AnalyticsManager
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharedFlow
@@ -27,7 +28,8 @@ sealed class LoginEvent {
 
 class LoginViewModel(
     private val authRepository: AuthRepository,
-    private val biometricHelper: BiometricHelper
+    private val biometricHelper: BiometricHelper,
+    private val analyticsManager: AnalyticsManager
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(LoginUiState())
@@ -67,6 +69,7 @@ class LoginViewModel(
             )
 
             if (success) {
+                analyticsManager.logLoginSuccess(_uiState.value.username)
                 val canUseBiometric = biometricHelper.canAuthenticate() == BiometricHelper.BiometricStatus.AVAILABLE
                 if (canUseBiometric && !authRepository.isBiometricEnabled()) {
                     _uiState.value = _uiState.value.copy(
@@ -78,6 +81,7 @@ class LoginViewModel(
                     _events.emit(LoginEvent.NavigateToHome)
                 }
             } else {
+                analyticsManager.logLoginFailed("credenciais inválidas")
                 _uiState.value = _uiState.value.copy(
                     isLoading = false,
                     errorMessage = "Usuário ou senha inválidos"
@@ -102,6 +106,7 @@ class LoginViewModel(
     }
 
     fun onEnableBiometric(enabled: Boolean) {
+        analyticsManager.logBiometricEnabled()
         authRepository.setBiometricEnabled(enabled)
         viewModelScope.launch {
             _uiState.value = _uiState.value.copy(showEnableBiometricDialog = false)

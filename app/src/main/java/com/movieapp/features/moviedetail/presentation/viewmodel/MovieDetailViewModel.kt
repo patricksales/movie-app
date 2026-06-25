@@ -8,6 +8,7 @@ import com.movieapp.features.moviedetail.domain.model.MovieDetail
 import com.movieapp.features.home.domain.data.repository.MovieRepository
 import com.movieapp.features.moviedetail.domain.usecase.GetMovieDetailUseCase
 import com.movieapp.features.home.domain.usecase.ToggleFavoriteUseCase
+import com.movieapp.features.monitoring.AnalyticsManager
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -24,7 +25,8 @@ class MovieDetailViewModel(
     savedStateHandle: SavedStateHandle,
     private val getMovieDetailUseCase: GetMovieDetailUseCase,
     private val toggleFavoriteUseCase: ToggleFavoriteUseCase,
-    private val movieRepository: MovieRepository
+    private val movieRepository: MovieRepository,
+    private val analyticsManager: AnalyticsManager
 ) : ViewModel() {
 
     private val movieId: Int = checkNotNull(savedStateHandle["movieId"])
@@ -71,6 +73,13 @@ class MovieDetailViewModel(
                 genreIds = detail.genres.map { it.id },
                 isFavorite = _uiState.value.isFavorite
             )
+
+            if (_uiState.value.isFavorite) {
+                analyticsManager.logMovieUnfavorited(movieId, movie.title)
+            } else {
+                analyticsManager.logMovieFavorited(movieId, movie.title)
+            }
+
             toggleFavoriteUseCase(movie)
             val newFavState = movieRepository.isFavorite(movieId)
             _uiState.value = _uiState.value.copy(isFavorite = newFavState)

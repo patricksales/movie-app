@@ -8,6 +8,7 @@ import com.movieapp.features.home.domain.usecase.GetGenresUseCase
 import com.movieapp.features.home.domain.usecase.GetPopularMoviesUseCase
 import com.movieapp.features.home.domain.usecase.SearchMoviesUseCase
 import com.movieapp.features.home.domain.usecase.ToggleFavoriteUseCase
+import com.movieapp.features.monitoring.AnalyticsManager
 import com.movieapp.features.monitoring.PerformanceMonitoring
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.Job
@@ -38,7 +39,8 @@ class HomeViewModel(
     private val searchMoviesUseCase: SearchMoviesUseCase,
     private val getGenresUseCase: GetGenresUseCase,
     private val toggleFavoriteUseCase: ToggleFavoriteUseCase,
-    private val movieRepository: MovieRepository
+    private val movieRepository: MovieRepository,
+    private val analyticsManager: AnalyticsManager
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(HomeUiState())
@@ -174,6 +176,7 @@ class HomeViewModel(
 
             searchMoviesUseCase(query, page).fold(
                 onSuccess = { movies ->
+                    analyticsManager.logMovieSearch(query, movies.size)
                     _uiState.value = _uiState.value.copy(
                         movies = if (page == 1) movies else _uiState.value.movies + movies,
                         isLoading = false,
