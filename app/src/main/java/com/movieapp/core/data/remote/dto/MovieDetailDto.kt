@@ -1,7 +1,6 @@
 package com.movieapp.core.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
-import com.movieapp.features.moviedetail.domain.model.GenreDetail
 import com.movieapp.features.moviedetail.domain.model.MovieDetail
 
 data class MovieDetailDto(
@@ -12,7 +11,7 @@ data class MovieDetailDto(
     val overview: String,
     @SerializedName("vote_average") val voteAverage: Double,
     @SerializedName("release_date") val releaseDate: String?,
-    val genres: List<GenreDetailDto>,
+    val genres: List<GenreDto>,
     val runtime: Int?
 ) {
     fun toDomain(isFavorite: Boolean = false): MovieDetail {

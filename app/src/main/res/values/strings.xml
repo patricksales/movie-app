@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MovieApp</string>
-    <string name="login_title">Bem-vindo</string>
-    <string name="login_subtitle">Faça login para continuar</string>
-    <string name="username_label">Usuário</string>
-    <string name="password_label">Senha</string>
-    <string name="login_button">Entrar</string>
-    <string name="login_error">Usuário ou senha inválidos</string>
-    <string name="biometric_title">Autenticação Biométrica</string>
-    <string name="biometric_subtitle">Use sua biometria para entrar</string>
-    <string name="biometric_enable_title">Ativar Biometria</string>
-    <string name="biometric_enable_message">Deseja ativar a autenticação biométrica para os próximos acessos?</string>
-    <string name="yes">Sim</string>
-    <string name="no">Não</string>
     <string name="popular_movies">Filmes Populares</string>
     <string name="search_movies">Buscar filmes…</string>
     <string name="favorites">Favoritos</string>
@@ -26,9 +14,5 @@
     <string name="empty_favorites">Nenhum filme favoritado ainda.</string>
     <string name="empty_search">Nenhum resultado encontrado.</string>
     <string name="loading">Carregando…</string>
-    <string name="biometric_negative_button">Usar senha</string>
-    <string name="biometric_login_message">Toque para autenticar com biometria</string>
-    <string name="biometric_retry">Autenticar com Biometria</string>
-    <string name="use_password">Entrar com Senha</string>
     <string name="home">Início</string>
 </resources>

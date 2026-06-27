@@ -1,6 +1,5 @@
 package com.movieapp.features.monitoring
 
-
 import com.google.firebase.Firebase
 import com.google.firebase.perf.metrics.Trace
 import com.google.firebase.perf.performance

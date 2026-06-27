@@ -1,0 +1,71 @@
+plugins {
+    alias(libs.plugins.android.library)
+    alias(libs.plugins.kotlin.android)
+}
+
+android {
+    namespace 'com.movieapp.feature.auth'
+    compileSdk libs.versions.compileSdk.get().toInteger()
+
+    defaultConfig {
+        minSdk libs.versions.minSdk.get().toInteger()
+        targetSdk libs.versions.targetSdk.get().toInteger()
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    buildFeatures {
+        compose true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion libs.versions.composeCompiler.get()
+    }
+}
+
+dependencies {
+    // Module dependencies
+    implementation project(':core:security')
+
+    // Compose BOM
+    implementation platform(libs.compose.bom)
+    androidTestImplementation platform(libs.compose.bom)
+
+    // Compose
+    implementation libs.bundles.compose
+    implementation libs.activity.compose
+    implementation libs.lifecycle.viewmodel.compose
+    implementation libs.lifecycle.runtime.compose
+
+    // Koin
+    implementation libs.bundles.koin
+
+    // Coroutines
+    implementation libs.bundles.coroutines
+
+    // Lifecycle
+    implementation libs.lifecycle.runtime.ktx
+    implementation libs.core.ktx
+
+    // Fragment (for BiometricPrompt)
+    implementation libs.fragment.ktx
+
+    // Unit Testing
+    testImplementation libs.bundles.unit.testing
+
+    // Compose UI Testing
+    androidTestImplementation libs.bundles.android.testing
+    androidTestImplementation libs.mockk.android
+    debugImplementation libs.compose.ui.tooling
+    debugImplementation libs.compose.ui.test.manifest
+}

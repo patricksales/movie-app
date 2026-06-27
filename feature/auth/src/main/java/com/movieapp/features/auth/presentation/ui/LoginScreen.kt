@@ -35,6 +35,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
@@ -44,7 +45,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.FragmentActivity
 import org.koin.androidx.compose.koinViewModel
-import com.movieapp.R
+import com.movieapp.feature.auth.R
 import com.movieapp.core.security.BiometricHelper
 import com.movieapp.features.auth.presentation.viewmodel.LoginEvent
 import com.movieapp.features.auth.presentation.viewmodel.LoginUiState
@@ -66,20 +67,9 @@ fun LoginScreen(
     }
 
     if (uiState.showEnableBiometricDialog) {
-        AlertDialog(
-            onDismissRequest = { viewModel.dismissBiometricDialog() },
-            title = { Text(stringResource(R.string.biometric_enable_title)) },
-            text = { Text(stringResource(R.string.biometric_enable_message)) },
-            confirmButton = {
-                TextButton(onClick = { viewModel.onEnableBiometric(true) }) {
-                    Text(stringResource(R.string.yes))
-                }
-            },
-            dismissButton = {
-                TextButton(onClick = { viewModel.onEnableBiometric(false) }) {
-                    Text(stringResource(R.string.no))
-                }
-            }
+        EnableBiometricDialog(
+            onEnable = { viewModel.onEnableBiometric(true) },
+            onDismiss = { viewModel.onEnableBiometric(false) }
         )
     }
 
@@ -99,7 +89,29 @@ fun LoginScreen(
 }
 
 @Composable
-private fun BiometricLoginContent(
+internal fun EnableBiometricDialog(
+    onEnable: () -> Unit,
+    onDismiss: () -> Unit
+) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.biometric_enable_title)) },
+        text = { Text(stringResource(R.string.biometric_enable_message)) },
+        confirmButton = {
+            TextButton(onClick = onEnable) {
+                Text(stringResource(R.string.yes))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.no))
+            }
+        }
+    )
+}
+
+@Composable
+internal fun BiometricLoginContent(
     onBiometricSuccess: () -> Unit,
     onSwitchToPassword: () -> Unit
 ) {
@@ -194,7 +206,7 @@ private fun BiometricLoginContent(
 }
 
 @Composable
-private fun PasswordLoginContent(
+internal fun PasswordLoginContent(
     uiState: LoginUiState,
     onUsernameChange: (String) -> Unit,
     onPasswordChange: (String) -> Unit,
@@ -288,7 +300,8 @@ private fun PasswordLoginContent(
             onClick = onLoginClick,
             modifier = Modifier
                 .fillMaxWidth()
-                .height(50.dp),
+                .height(50.dp)
+                .testTag("login_button"),
             enabled = !uiState.isLoading && uiState.username.isNotBlank() && uiState.password.isNotBlank()
         ) {
             if (uiState.isLoading) {
