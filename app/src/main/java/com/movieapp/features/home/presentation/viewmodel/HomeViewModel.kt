@@ -2,6 +2,7 @@ package com.movieapp.features.home.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.movieapp.features.home.domain.model.Genre
 import com.movieapp.features.home.domain.model.Movie
 import com.movieapp.features.home.domain.data.repository.MovieRepository
 import com.movieapp.features.home.domain.usecase.GetGenresUseCase
