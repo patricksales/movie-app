@@ -19,6 +19,7 @@ import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
 data class HomeUiState(
@@ -111,19 +112,22 @@ class HomeViewModel(
         loadJob?.cancel()
         loadJob = viewModelScope.launch {
             _uiState.value = _uiState.value.copy(isLoading = true, error = null)
-            val trace = PerformanceMonitoring.traceNetworkRequest("load_popular_movies")
+            val trace = try { PerformanceMonitoring.traceNetworkRequest("load_popular_movies") } catch (e: Throwable) { null }
             getPopularMoviesUseCase(1).fold(
                 onSuccess = { movies ->
-                    trace.stop()
+                    try { trace?.javaClass?.getMethod("stop")?.invoke(trace) } catch (_: Throwable) {}
+                    val favoriteIds = try { movieRepository.getFavoriteIds().first() } catch (_: Throwable) { emptySet<Int>() }
+                    val mappedMovies = movies.map { it.copy(isFavorite = it.id in favoriteIds) }
                     _uiState.value = _uiState.value.copy(
-                        movies = movies,
+                        movies = mappedMovies,
                         isLoading = false,
                         currentPage = 1,
-                        hasMorePages = movies.isNotEmpty()
+                        hasMorePages = mappedMovies.isNotEmpty()
                     )
                 },
+
                 onFailure = { exception ->
-                    trace.stop()
+                    try { trace?.javaClass?.getMethod("stop")?.invoke(trace) } catch (_: Throwable) {}
                     _uiState.value = _uiState.value.copy(
                         isLoading = false,
                         error = exception.message ?: "Erro desconhecido"
@@ -150,13 +154,16 @@ class HomeViewModel(
 
             result.fold(
                 onSuccess = { newMovies ->
+                    val favoriteIds = try { movieRepository.getFavoriteIds().first() } catch (_: Throwable) { emptySet<Int>() }
+                    val mappedNew = newMovies.map { it.copy(isFavorite = it.id in favoriteIds) }
                     _uiState.value = _uiState.value.copy(
-                        movies = _uiState.value.movies + newMovies,
+                        movies = _uiState.value.movies + mappedNew,
                         isLoadingMore = false,
                         currentPage = nextPage,
-                        hasMorePages = newMovies.isNotEmpty()
+                        hasMorePages = mappedNew.isNotEmpty()
                     )
                 },
+
                 onFailure = {
                     _uiState.value = _uiState.value.copy(isLoadingMore = false)
                 }
@@ -175,13 +182,16 @@ class HomeViewModel(
 
             searchMoviesUseCase(query, page).fold(
                 onSuccess = { movies ->
+                    val favoriteIds = try { movieRepository.getFavoriteIds().first() } catch (_: Throwable) { emptySet<Int>() }
+                    val mapped = movies.map { it.copy(isFavorite = it.id in favoriteIds) }
                     _uiState.value = _uiState.value.copy(
-                        movies = if (page == 1) movies else _uiState.value.movies + movies,
+                        movies = if (page == 1) mapped else _uiState.value.movies + mapped,
                         isLoading = false,
                         currentPage = page,
-                        hasMorePages = movies.isNotEmpty()
+                        hasMorePages = mapped.isNotEmpty()
                     )
                 },
+
                 onFailure = { exception ->
                     _uiState.value = _uiState.value.copy(
                         isLoading = false,

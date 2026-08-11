@@ -37,9 +37,8 @@ class MovieDetailViewModel(
     }
 
     fun loadMovieDetail() {
+        _uiState.value = _uiState.value.copy(isLoading = true, error = null)
         viewModelScope.launch {
-            _uiState.value = _uiState.value.copy(isLoading = true, error = null)
-
             getMovieDetailUseCase(movieId).fold(
                 onSuccess = { detail ->
                     _uiState.value = _uiState.value.copy(
