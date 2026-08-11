@@ -19,6 +19,7 @@ gradle.properties
 
 # Gradle Wrapper
 !gradle/wrapper/gradle-wrapper.jar
+gradle-wrapper.properties
 
 # Kotlin / kapt / ksp
 .kapt/
@@ -98,4 +99,4 @@ yarn-error.log
 .build/
 
 # Firebase
-#app/src/google-services.json
+app/src/google-services.json
