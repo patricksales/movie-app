@@ -19,7 +19,6 @@ gradle.properties
 
 # Gradle Wrapper
 !gradle/wrapper/gradle-wrapper.jar
-gradle-wrapper.properties
 
 # Kotlin / kapt / ksp
 .kapt/
